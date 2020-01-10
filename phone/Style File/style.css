@@ -1,0 +1,220 @@
+*{
+    padding:0px;
+    margin:0px; 
+}
+header{
+    background-color:#000;
+    height:120px;
+    border-bottom:1px solid #999;
+    margin-bottom:60px;
+}
+.header-content{
+    width:988px;
+    margin:0px auto;
+    height:500px;
+}
+.logo{
+    width:40%;
+    float:left;
+}
+.logo a{
+    text-decoration:none;
+    color:#fff;
+}
+.logo h1{
+    padding-top:50px;
+    font-family:Arial;
+    font-size:43px;
+}
+.cartandlinks{
+    width:42%;
+    padding-top:13px;
+    margin-top:50px;
+    float:left;
+}
+.cartandlinks_contain{
+    width:100%;
+    display:flex;
+    margin-left:300px;
+}
+.cartandlinks_links{
+    width:100%;
+    margin-top:10px;
+    margin-left:-200px
+}
+.cartandlinks_links a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding:10px;
+    color:#fff;
+    font-family:Arial
+}
+.cartandlinks_links a:hover{
+    color:#f00;
+}
+.cartandlinks_cart{
+    width:20%;
+    border:1px solid #000;
+    background-color:#fff;
+    text-align:center;
+}
+.cartandlinks_cart a{
+    display:block
+}
+article{
+    width:1200px;
+    margin:0px auto;
+    height:2500px;
+}
+.connect{
+    width:100%;
+    float:left;
+    overflow:hidden;
+}
+.slideshow{
+    width:100%;
+    height:400px;
+    display:flex;
+    padding:30px;
+    margin-bottom:100px;
+    background-color:#fff;
+}
+.slideshow_name_phone{
+    width:50%;
+    padding:20px;
+    font-size:50px;
+}
+.slideshow_photo_phone{
+    width:50%;
+    text-align:right;
+}
+.slideshow_photo_phone img{
+    width:400px;
+    height:400px;
+    margin-right:60px;
+}
+.connect .links{
+    width:100%;
+    margin-bottom:40px;
+    text-align:center;
+    font-family:Arial;
+}
+.connect .links a{
+    text-decoration:none;
+    padding:50px;
+    font-size:30px;
+    color:#777;
+}
+.connect .links a:hover{
+    color:#f00;
+}
+iframe{
+    width:100%;
+    height:1800px;
+    border:none;
+}
+.box_phone{
+    width:300px;
+    text-align:center;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:40px;
+}
+.box_phone .box_phone_contain{
+    box-shadow:0px 0px 5px #777;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    padding:30px 0px;
+}
+.box_phone .box_phone_contain .phone_img{
+    width:300px;
+    height:300px;
+}
+.box_phone .box_phone_contain:hover{
+    box-shadow:0px 0px 15px #777;
+}
+.box_phone .box_phone_cart .cart{
+    background-color:rgba(227,16,19,1);
+    width:100%;
+    padding:10px;
+    color:#fff;
+    font-size:20px;
+    border:2px solid #e31013;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    text-align:center;
+    outline:none;
+    box-shadow:0px 0px 5px #e31013;
+}
+.box_phone .box_phone_cart .cart:hover{
+    background-color:#fff;
+    color:#000;
+    border:2px solid #e31013;
+    box-shadow:0px 5px 5px #777;
+}
+.all_phone{
+    margin:0px auto;
+}
+.all_phone td{
+    padding:30px
+}
+.cart_contain{
+    width:988px;
+    margin:0px auto;
+    min-height:400px;
+    margin-bottom:100px;
+}
+.cart_product_table th{
+    border-bottom:1px solid #111;
+    padding:10px;
+    font-family:arial;
+}
+.cart_image{
+    width:100px;
+    height:100px;
+}
+#quantity{
+    width:50px;
+    height:40px;
+    font-weight:bold;
+    padding-left:10px;
+    outline:none;
+}
+input[name="edit"]{
+    margin-left:10px
+}
+.up_image_delete input[type="submit"] , input[name="edit"]{
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-size:17px;
+    font-weight:bold;
+    outline:none
+}
+.up_image_delete input[type="submit"]:hover , input[name="edit"]:hover{
+    text-decoration:underline;
+    color:#f50;
+}
+.image_delete{
+    width:16px;
+    height:16px;
+}   
+footer{
+    border:1px solid #000;
+    display:block;
+    background-color:#000;
+    color:#fff;
+    font-family:cursive;
+    padding:60px;
+}
+.footer{
+    width:1200px;
+    border:1px solid #000;
+    margin:0px auto;
+    list-style-position:inside;
+}
